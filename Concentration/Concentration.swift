@@ -39,7 +39,7 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
-        // TODO: Shuffle the cards
+        // Shuffle the cards
         func shuffledCards(_ cardCount: Int) {
             var arrayShuffle = [Int](repeating: 0, count: cardCount)
             for unshuffledCard in 0..<cardCount {
