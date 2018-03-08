@@ -73,7 +73,7 @@ class ViewController: UIViewController {
     // Logic when starting a new game
     private func startNewGame() {
         // Reset game
-        game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
+        game = Concentration(numberOfPairsOfCards: numberOfPairsOfCards)
         emojiChoicesCopy = emojiChoices
         
         // Reset flip count
